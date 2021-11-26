@@ -4,6 +4,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="AvaloniaApplication1.MainWindow"
+        x:Name="Window"
+        x:Key="Window2"
         Title="AvaloniaApplication1">
-    Welcome to Avalonia!
+
+  <Grid>
+      <!--<Button Content="New contact"
+                Click="Button_Click"/>-->
+      <TextBlock Name="Block" Text="{Binding Phone}"></TextBlock>
+      <!--<TextBlock Text ="{StaticResource BlaBla}"></TextBlock>-->
+      <TextBlock Name="dataGrid"
+                 x:FieldModifier="private"></TextBlock>
+      <TextBlock></TextBlock>
+      <Button Name ="Button1" Content="New contact"
+              Click="Button_Click1"/>
+      <Button Name ="Button2" Content="New contact"
+              Click="Button_Click2"/>
+      <Button Name ="Button3" Content="New contact"
+              Click="Button_Click2"/>
+      <Button Margin="400,0,100,200">Aloha</Button>
+      <Button Background="Blue"/>
+  </Grid>
 </Window>

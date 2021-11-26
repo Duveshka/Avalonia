@@ -1,13 +1,12 @@
 using Avalonia;
 using Avalonia.Controls;
-using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
 
 namespace AvaloniaApplication1
 {
-    public partial class MainWindow : Window
+    public partial class Buttons : Window
     {
-        public MainWindow()
+        public Buttons()
         {
             InitializeComponent();
 #if DEBUG
@@ -18,14 +17,6 @@ namespace AvaloniaApplication1
         private void InitializeComponent()
         {
             AvaloniaXamlLoader.Load(this);
-        }
-        private void Button_Click1(object sender, RoutedEventArgs e)
-        {
-            
-        }
-
-        private void Button_Click2(object sender, RoutedEventArgs e)
-        {
         }
     }
 }
