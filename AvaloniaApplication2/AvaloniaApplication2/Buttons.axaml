@@ -4,6 +4,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="AvaloniaApplication2.Buttons"
+        xmlns:local="clr-namespace:AvaloniaApplication2"
         Title="Buttons">
-  Welcome to Avalonia!
+    <Window.Resources>
+        <local:DataContext x:Key ="DataC"/>
+    </Window.Resources>
+    <Grid DataContext="{StaticResource DataC}">
+        <Button>Button1</Button>
+        <Button Grid.Column="1">Button2</Button>
+        <TextBox Text="{Binding Name}"></TextBox>
+    </Grid>
 </Window>
