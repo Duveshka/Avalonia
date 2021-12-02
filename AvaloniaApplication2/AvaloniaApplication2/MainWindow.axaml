@@ -3,12 +3,12 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-        x:Class="AvaloniaApplication1.MainWindow"
+        x:Class="AvaloniaApplication2.MainWindow"
         x:Name="Window"
-        x:Key="Window2"
-        Title="AvaloniaApplication1">
 
-  <Grid>
+        Title="AvaloniaApplication2">
+
+    <Grid>
       <!--<Button Content="New contact"
                 Click="Button_Click"/>-->
       <TextBlock Name="Block" Text="{Binding Phone}"></TextBlock>
@@ -25,4 +25,5 @@
       <Button Margin="400,0,100,200">Aloha</Button>
       <Button Background="Blue"/>
   </Grid>
+
 </Window>

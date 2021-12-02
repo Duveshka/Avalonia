@@ -2,7 +2,7 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 
-namespace AvaloniaApplication1
+namespace AvaloniaApplication2
 {
     public partial class Buttons : Window
     {

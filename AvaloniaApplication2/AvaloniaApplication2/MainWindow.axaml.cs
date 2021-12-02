@@ -3,7 +3,7 @@ using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
 
-namespace AvaloniaApplication1
+namespace AvaloniaApplication2
 {
     public partial class MainWindow : Window
     {
@@ -21,7 +21,7 @@ namespace AvaloniaApplication1
         }
         private void Button_Click1(object sender, RoutedEventArgs e)
         {
-            
+
         }
 
         private void Button_Click2(object sender, RoutedEventArgs e)

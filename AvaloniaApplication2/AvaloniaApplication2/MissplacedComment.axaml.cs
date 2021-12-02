@@ -2,11 +2,11 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 
-namespace AvaloniaApplication1
+namespace AvaloniaApplication2
 {
-    public partial class ForReordering : Window
+    public partial class MissplacedComment : Window
     {
-        public ForReordering()
+        public MissplacedComment()
         {
             InitializeComponent();
 #if DEBUG

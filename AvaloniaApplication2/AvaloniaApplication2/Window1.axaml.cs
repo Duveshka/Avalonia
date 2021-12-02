@@ -2,11 +2,11 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 
-namespace AvaloniaApplication1
+namespace AvaloniaApplication2
 {
-    public partial class MissplacedComment : Window
+    public partial class Window1 : Window
     {
-        public MissplacedComment()
+        public Window1()
         {
             InitializeComponent();
 #if DEBUG

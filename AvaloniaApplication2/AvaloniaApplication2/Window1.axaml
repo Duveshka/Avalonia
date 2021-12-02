@@ -3,17 +3,17 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-             x:Class="AvaloniaApplication1.UserControl1">
+             x:Class="AvaloniaApplication2.Window1">
     <Grid>
         <Grid.Resources>
             <Style x:Key="ButtonStyle" Selector="Button">
                 <Setter Property="Background" Value="Blue" />
             </Style>
         </Grid.Resources>
-        <Button Style="{StaticResource ButtonStyle}"></Button>
-        <Button Style="{StaticResource ButtonStyle}"></Button>
-        <Button Style="{StaticResource ButtonStyle}"></Button>
-        <Button Style="{StaticResource ButtonStyle}"></Button>
+        <Button Styles="{StaticResource ButtonStyle}"></Button>
+        <Button Styles="{StaticResource ButtonStyle}"></Button>
+        <Button Styles="{StaticResource ButtonStyle}"></Button>
+        <Button Styles="{StaticResource ButtonStyle}"></Button>
         <TextBlock Name="Block"></TextBlock>
         <CheckBox x:Name="Chto" Content="что-то длинное написать если, то будет работать?"/>
 
